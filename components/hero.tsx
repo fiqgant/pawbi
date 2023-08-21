@@ -107,8 +107,8 @@ export default function Hero() {
             thumbHeight={384} // 50% of 768
             thumbAlt="Modal video thumbnail"
             video="/videos/video.mp4"
-            videoWidth={540} // 50% of 1080
-            videoHeight={960} // 50% of 1920
+            videoWidth={324} // 50% of 1080
+            videoHeight={576} // 50% of 1920
           />
         </div>
       </div>
