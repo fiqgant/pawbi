@@ -1,15 +1,15 @@
-import Head from 'next/head';
+import Head from "next/head";
 
 export const metadata = {
-  title: 'WBI Pre-Akselerator FoodTech & AgriTech',
-  description: 'Page description',
-}
+  title: "WBI Pre-Akselerator FoodTech & AgriTech",
+  description: "Page description",
+};
 
-import Hero from '@/components/hero'
-import Features from '@/components/features'
-import FeaturesBlocks from '@/components/features-blocks'
-import Testimonials from '@/components/testimonials'
-import Newsletter from '@/components/newsletter'
+import Hero from "@/components/hero";
+import Features from "@/components/features";
+import FeaturesBlocks from "@/components/features-blocks";
+import Testimonials from "@/components/testimonials";
+import Newsletter from "@/components/newsletter";
 
 export default function Home() {
   return (
@@ -23,5 +23,5 @@ export default function Home() {
       <Testimonials />
       <Newsletter />
     </>
-  )
+  );
 }
