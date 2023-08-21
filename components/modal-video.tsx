@@ -32,8 +32,12 @@ export default function ModalVideo({
 
       {/* Video thumbnail */}
       <div>
-        <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
-          <div className="flex flex-col justify-center">
+        <div
+          className="relative flex justify-center mb-8 transition duration-300"
+          data-aos="zoom-y-out"
+          data-aos-delay="450"
+        >
+          <div className="flex flex-col justify-center shadow-md hover:shadow-lg">
             <Image src={thumb} width={thumbWidth} height={thumbHeight} alt={thumbAlt} />
           </div>
           <button className="absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg" onClick={() => { setModalOpen(true) }}>

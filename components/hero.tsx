@@ -1,9 +1,23 @@
-import Thumb from '@/public/images/thumb.png'
-import ModalVideo from '@/components/modal-video'
+import Thumb from '@/public/images/thumb.png';
+import ModalVideo from '@/components/modal-video';
 
 export default function Hero() {
   return (
     <section className="relative">
+      {/* Video background */}
+      <video
+        autoPlay
+        loop
+        muted
+        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+      >
+        <source src="/videos/bg_video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+        {/* Dark overlay */}
+        <div
+        className="absolute top-0 left-0 w-full h-full bg-white opacity-30 z-1"
+      ></div>
 
       {/* Illustration behind hero content */}
       <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1" aria-hidden="true">
