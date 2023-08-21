@@ -2,7 +2,10 @@ import Head from "next/head";
 
 export const metadata = {
   title: "WBI Pre-Akselerator FoodTech & AgriTech",
-  description: "Page description",
+  description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+  icons: {
+    icon: '/favicon.png',
+  },
 };
 
 import Hero from "@/components/hero";
