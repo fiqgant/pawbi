@@ -9,14 +9,14 @@ export default function Hero() {
         autoPlay
         loop
         muted
-        className="absolute top-0 left-0 w-full h-full object-cover z-1 hidden md:block"
+        className="absolute top-0 left-0 w-full h-full object-cover z-0 hidden md:block"
       >
         <source src="/videos/bg_video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       {/* Dark overlay */}
       <div
-        className="absolute top-0 left-0 w-full h-full bg-white opacity-40 z-1"
+        className="absolute top-0 left-0 w-full h-full bg-white opacity-40 z-1 hidden md:block"
       ></div>
 
       {/* Illustration behind hero content */}
