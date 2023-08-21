@@ -4,7 +4,7 @@ export const metadata = {
   title: "WBI Pre-Akselerator FoodTech & AgriTech",
   description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
   icons: {
-    icon: '/favicon.png',
+    icon: "/favicon.png",
   },
 };
 

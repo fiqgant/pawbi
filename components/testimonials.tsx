@@ -11,7 +11,7 @@ export default function Testimonials() {
     <section id="narasumber-mentor" className="relative">
       {/* Illustration behind content */}
       <div
-        className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -mb-32"
+        className="absolute left 0 transform -translate-x-1/2 bottom-0 pointer-events-none -mb-32 animate-float"
         aria-hidden="true"
       >
         <svg
@@ -28,9 +28,9 @@ export default function Testimonials() {
               y2="100%"
               id="illustration-02"
             >
-              <stop stopColor="#FFF" offset="0%" />
-              <stop stopColor="#EAEAEA" offset="77.402%" />
-              <stop stopColor="#DFDFDF" offset="100%" />
+              <stop stopColor="#DCE35B" offset="0%" />
+              <stop stopColor="#4ECEC1" offset="77.402%" />
+              <stop stopColor="#45B649" offset="100%" />
             </linearGradient>
           </defs>
           <g
@@ -38,7 +38,7 @@ export default function Testimonials() {
             fill="url(#illustration-02)"
             fillRule="evenodd"
           >
-            <circle cx="1630" cy="128" r="128" />
+            <circle cx="1430" cy="128" r="120" />
             <circle cx="178" cy="481" r="40" />
           </g>
         </svg>

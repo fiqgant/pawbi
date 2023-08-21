@@ -9,7 +9,7 @@ export default function Hero() {
         autoPlay
         loop
         muted
-        className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        className="absolute top-0 left-0 w-full h-full object-cover z-1 hidden md:block"
       >
         <source src="/videos/bg_video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
@@ -20,11 +20,11 @@ export default function Hero() {
       ></div> */}
 
       {/* Illustration behind hero content */}
-      <div
-        className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1"
+      {/* <div
+        className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -z-0 "
         aria-hidden="true"
       >
-        <svg
+                <svg
           width="1360"
           height="578"
           viewBox="0 0 1360 578"
@@ -48,7 +48,7 @@ export default function Hero() {
             <circle cx="155" cy="443" r="64" />
           </g>
         </svg>
-      </div>
+      </div> */}
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         {/* Hero content */}
@@ -56,7 +56,7 @@ export default function Hero() {
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
             <h1
-              className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
+              className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
               data-aos="zoom-y-out"
             >
               Pre-Akselerator{" "}
@@ -66,7 +66,7 @@ export default function Hero() {
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
-                className="text-xl text-gray-600 mb-8"
+                className="text-base md:text-lg lg:text-xl text-gray-600 mb-8"
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
