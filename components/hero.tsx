@@ -15,9 +15,9 @@ export default function Hero() {
         Your browser does not support the video tag.
       </video>
       {/* Dark overlay */}
-      {/* <div
-        className="absolute top-0 left-0 w-full h-full bg-white opacity-30 z-1"
-      ></div> */}
+      <div
+        className="absolute top-0 left-0 w-full h-full bg-white opacity-40 z-1"
+      ></div>
 
       {/* Illustration behind hero content */}
       {/* <div
@@ -66,7 +66,7 @@ export default function Hero() {
             </h1>
             <div className="max-w-3xl mx-auto">
               <p
-                className="text-base md:text-lg lg:text-xl text-gray-600 mb-8"
+                className="text-base md:text-lg lg:text-xl text-gray-800 mb-8"
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
