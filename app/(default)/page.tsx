@@ -13,6 +13,7 @@ import Features from "@/components/features";
 import FeaturesBlocks from "@/components/features-blocks";
 import Testimonials from "@/components/testimonials";
 import Newsletter from "@/components/newsletter";
+import Slides from "@/components/slides";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       </Head>
       <Hero />
       <Features />
+      <Slides />
       <FeaturesBlocks />
       <Testimonials />
       <Newsletter />

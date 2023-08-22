@@ -16,3 +16,33 @@
     }
 }
 
+/* Slides.module.css */
+
+.carouselContainer {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px; /* Optional: Add a max-width for larger screens */
+}
+
+/* Additional responsive adjustments */
+@media (max-width: 768px) {
+  .carouselContainer {
+    width: 90%; /* Adjust for smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+}
+
+/* Adjust other styles as needed */
+.carousel .slide {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.carousel .slide img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
