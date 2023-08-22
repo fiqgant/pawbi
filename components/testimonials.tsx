@@ -58,8 +58,9 @@ export default function Testimonials() {
             </h1>
             {/* <h2 className="h2 mb-4">Narasumber dan Mentor</h2> */}
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">
-              Arcu cursus vitae congue mauris rhoncus viverra nibh cras pulvinar
-              mattis blandit libero cursus mattis.
+              Akselerator dikembangkan dalam kerja sama pengusaha lokal serta
+              pakar internasional yang memberikan pelatihan kewirausahaan
+              terkini.
             </p>
           </div>
 

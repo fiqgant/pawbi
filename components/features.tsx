@@ -47,9 +47,10 @@ export default function Features() {
             </h1>
             {/* <h1 className="h2 mb-4 from-amber-400 to-green-300">Tahapan Program</h1> */}
             <p className="text-xl text-gray-600">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur excepteur sint occaecat
-              cupidatat.
+              Program akselerator akan membekali tim startup dengan pengetahuan,
+              keterampilan, dan pola pikir serta pendanaan yang dibutuhkan untuk
+              membangun fondasi yang kokoh dan membantu mereka memulai
+              pertumbuhan dan perkembangan.
             </p>
           </div>
 

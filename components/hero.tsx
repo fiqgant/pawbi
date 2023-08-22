@@ -57,7 +57,7 @@ export default function Hero() {
               className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tighter tracking-tighter mb-4"
               data-aos="zoom-y-out"
             >
-              Pre-Akselerator{" "}
+              Pre-Akselerator <br></br>
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-800 to-teal-400">
                 FoodTech & AgriTech
               </span>
@@ -68,10 +68,12 @@ export default function Hero() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-                amet accusantium dignissimos id, rerum consequuntur quaerat
-                repellat vero saepe beatae provident excepturi autem eveniet et
-                delectus culpa nam accusamus molestias.
+                Program kami mengajak Anda untuk merangkul perubahan dengan
+                penuh semangat. Dibutuhkan komitmen dan usaha nyata untuk
+                mencapai hasil gemilang, namun jangan khawatir, semua ini kami
+                tawarkan{" "}
+                <span className="bg-yellow-400">tanpa dipungut biaya</span>{" "}
+                sepeser pun.
               </p>
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
