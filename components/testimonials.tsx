@@ -141,7 +141,7 @@ export default function Testimonials() {
                 <blockquote className="text-xl font-medium mb-4">
                   “ Program Pra-Akselerator Food and Agritech WBI adalah program
                   pelatihan kewirausahaan langsung yang berlangsung selama dua
-                  bulan, yang bertujuan membekali siswa dengan pengetahuan,
+                  bulan, yang bertujuan membekali dengan pengetahuan,
                   keterampilan, dan pola pikir yang diperlukan untuk unggul
                   dalam dunia usaha teknologi pangan dan pertanian yang dinamis.
                   “

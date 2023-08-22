@@ -15,9 +15,7 @@ export default function Hero() {
         Your browser does not support the video tag.
       </video>
       {/* Dark overlay */}
-      <div
-        className="absolute top-0 left-0 w-full h-full bg-white opacity-40 z-1 hidden md:block"
-      ></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-white opacity-40 z-1 hidden md:block"></div>
 
       {/* Illustration behind hero content */}
       {/* <div

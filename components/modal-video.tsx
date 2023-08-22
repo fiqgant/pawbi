@@ -45,13 +45,13 @@ export default function ModalVideo({
             />
           </div>
           <button
-            className="absolute top-full flex items-center transform -translate-y-1/2 bg-white rounded-full font-medium group p-4 shadow-lg"
+            className="absolute top-full flex items-center transform -translate-y-1/2 bg-teal-400 hover:bg-teal-600 text-black hover:text-white rounded-full font-medium group p-4 shadow-lg"
             onClick={() => {
               setModalOpen(true);
             }}
           >
             <svg
-              className="w-6 h-6 fill-current text-gray-400 group-hover:text-blue-600 shrink-0"
+              className="w-6 h-6 fill-current text-gray-100 group-hover:text-yellow-400 shrink-0"
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
             >
