@@ -72,8 +72,7 @@ export default function Hero() {
                 penuh semangat. Dibutuhkan komitmen dan usaha nyata untuk
                 mencapai hasil gemilang, namun jangan khawatir, semua ini kami
                 tawarkan{" "}
-                <span className="bg-yellow-400">tanpa dipungut biaya</span>{" "}
-                sepeser pun.
+                <span className="bg-yellow-400">tanpa dipungut biaya</span>{" "}.
               </p>
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"

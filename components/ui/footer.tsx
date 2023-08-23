@@ -80,7 +80,7 @@ export default function Footer() {
 
           {/* Copyrights note */}
           <div className="text-sm text-gray-600 mr-4">
-            &copy; Politeknik Wilmar Bisnis Indonesia All rights reserved.
+            <a className="text-emerald-900" href="https://wbi.ac.id">&copy; Politeknik Wilmar Bisnis Indonesia.</a> All rights reserved.
           </div>
         </div>
       </div>

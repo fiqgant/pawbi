@@ -97,6 +97,7 @@ export default function MobileMenu() {
             <li>
               <Link
                 href="https://bit.ly/PreAkseleratorWBI"
+                target="_blank"
                 className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 w-full my-2"
                 onClick={() => setMobileNavOpen(false)}
               >
