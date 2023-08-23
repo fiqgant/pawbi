@@ -63,7 +63,7 @@ export default function FeaturesBlocks() {
                 Super Food
               </h4>
               <p className="text-gray-600 text-center">
-                Makanan super (superfood) untuk nutrisi yang berkelanjutan.
+                Makanan super (super food) untuk nutrisi yang berkelanjutan.
               </p>
             </div>
 
