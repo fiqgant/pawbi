@@ -23,8 +23,8 @@ export default function Home() {
       </Head>
       <Hero />
       <Features />
-      <Slides />
       <FeaturesBlocks />
+      <Slides />
       <Testimonials />
       <Newsletter />
     </>

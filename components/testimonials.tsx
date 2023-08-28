@@ -53,14 +53,13 @@ export default function Testimonials() {
               data-aos="zoom-y-out"
             >
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-teal-700 via-yellow-300 to-emerald-500">
-                Narasumber & Mentor
+                Kontributor Program
               </span>
             </h1>
             {/* <h2 className="h2 mb-4">Narasumber dan Mentor</h2> */}
             <p className="text-xl text-gray-600" data-aos="zoom-y-out">
-              Akselerator dikembangkan dalam kerja sama pengusaha lokal serta
-              pakar internasional yang memberikan pelatihan kewirausahaan
-              terkini.
+              Program ini menggabungkan praktik terbaik pelatihan kewirausahaan
+              internasional dengan keahlian para pengusaha lokal.
             </p>
           </div>
 
@@ -140,12 +139,12 @@ export default function Testimonials() {
                   />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ Program Pra-Akselerator Food and Agritech WBI adalah program
-                  pelatihan kewirausahaan langsung yang berlangsung selama dua
-                  bulan, yang bertujuan membekali dengan pengetahuan,
-                  keterampilan, dan pola pikir yang diperlukan untuk unggul
-                  dalam dunia usaha teknologi pangan dan pertanian yang dinamis.
-                  “
+                  “ Ini adalah peluang unik bagi para siswa Sumatera Utara yang
+                  bercita-cita menjadi pengusaha. Program kami akan membantu
+                  Anda memperoleh keterampilan bisnis praktis yang diperlukan,
+                  membentuk tim dengan orang sejiwa, menemukan dan memvalidasi
+                  ide bisnis yang menjanjikan, serta mempersiapkan diri untuk
+                  menarik investasi dan mengembangkan bisnis Anda lebih lanjut “
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">
                   Dr. Ir. Jenny Elisabeth, MS

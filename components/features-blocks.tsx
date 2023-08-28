@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faUtensils,
+  faSeedling,
   faLeaf,
   faBoxes,
   faRecycle,
@@ -11,6 +11,49 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function FeaturesBlocks() {
+  const items = [
+    {
+      icon: faSeedling,
+      title: "Protein Alternatif",
+      text: "Manfaatkan bioteknologi untuk menghasilkan daging, susu, dan telur tanpa melibatkan hewan.",
+    },
+    {
+      icon: faLeaf,
+      title: "Super Food",
+      text: "Makanan super (super food) untuk nutrisi yang berkelanjutan.",
+    },
+    {
+      icon: faBoxes,
+      title: "Optimisasi Sumber Daya Lokal",
+      text: "Tingkatkan efisiensi dan nilai tambah dari hasil bahan baku lokal.",
+    },
+    {
+      icon: faRecycle,
+      title: "Pengelolaan Limbah",
+      text: "Pengelolaan limbah makanan untuk efisiensi sumber daya.",
+    },
+    {
+      icon: faCube,
+      title: "Biomaterial Inovatif",
+      text: "Memanfaatkan teknologi untuk menghasilkan jenis bahan baru.",
+    },
+    {
+      icon: faUsers,
+      title: "Pemberdayaan Petani",
+      text: "Untuk adopsi teknologi pertanian, akses ke pasar, dan inklusi keuangan.",
+    },
+    {
+      icon: faBullseye,
+      title: "Pertanian Presisi",
+      text: "Pertanian presisi dan pertanian cerdas untuk produktivitas optimal.",
+    },
+    {
+      icon: faTree,
+      title: "Pertanian Restoratif",
+      text: "Pertanian restoratif untuk regenerasi dan pelestarian ekosistem.",
+    },
+  ];
+
   return (
     <section className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
@@ -26,145 +69,32 @@ export default function FeaturesBlocks() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Ruang Lingkup Program</h2>
             <p className="text-xl text-gray-600">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur excepteur sint occaecat
-              cupidatat.
+              Program ini menekankan penerapan teknologi dan alat digital untuk
+              membantu menyelesaikan masalah-masalah besar di sektor makanan dan
+              pertanian di Indonesia. Berikut adalah contoh-contoh area yang
+              memerlukan solusi lebih efisien dan inovatif
             </p>
           </div>
 
           {/* Items */}
-          <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-4 items-start md:max-w-2xl lg:max-w-6xl">
-            {/* 1st item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <div className="rounded-full bg-teal-500 p-4 p-4 mb-2">
-                <FontAwesomeIcon
-                  icon={faUtensils}
-                  className="w-6 h-6 text-white "
-                />
+          <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-4 items-stretch md:max-w-2xl lg:max-w-6xl">
+            {items.map((item, index) => (
+              <div
+                key={index}
+                className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl"
+              >
+                <div className="rounded-full bg-teal-500 p-4 mb-2">
+                  <FontAwesomeIcon
+                    icon={item.icon}
+                    className="w-6 h-6 text-white"
+                  />
+                </div>
+                <h4 className="text-xl font-bold leading-snug tracking-tight mb-1 text-center">
+                  {item.title}
+                </h4>
+                <p className="text-gray-600 text-center">{item.text}</p>
               </div>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                Produk Pangan
-              </h4>
-              <p className="text-gray-600 text-center">
-                Produk pangan berbasis protein nabati yang inovatif dan
-                berkualitas tinggi.
-              </p>
-            </div>
-
-            {/* 2nd item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <div className="rounded-full bg-teal-500 p-4 p-4 mb-2">
-                <FontAwesomeIcon
-                  icon={faLeaf}
-                  className="w-6 h-6 text-white "
-                />
-              </div>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                Super Food
-              </h4>
-              <p className="text-gray-600 text-center">
-                Makanan super (super food) untuk nutrisi yang berkelanjutan.
-              </p>
-            </div>
-
-            {/* 3rd item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <div className="rounded-full bg-teal-500 p-4 p-4 mb-2">
-                <FontAwesomeIcon
-                  icon={faBoxes}
-                  className="w-6 h-6 text-white "
-                />
-              </div>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                Bahan Baku
-              </h4>
-              <p className="text-gray-600 text-center">
-                Pemanfaatan bahan baku lokal untuk pangan alternatif dan aditif
-                pangan.
-              </p>
-            </div>
-
-            {/* 4th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <div className="rounded-full bg-teal-500 p-4 p-4 mb-2">
-                <FontAwesomeIcon
-                  icon={faRecycle}
-                  className="w-6 h-6 text-white "
-                />
-              </div>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                Pengelolaan Limbah
-              </h4>
-              <p className="text-gray-600 text-center">
-                Pengelolaan limbah makanan untuk efisiensi sumber daya.
-              </p>
-            </div>
-
-            {/* 5th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <div className="rounded-full bg-teal-500 p-4 p-4 mb-2">
-                <FontAwesomeIcon
-                  icon={faCube}
-                  className="w-6 h-6 text-white "
-                />
-              </div>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                Biomaterial Inovatif
-              </h4>
-              <p className="text-gray-600 text-center">
-                Biomaterial inovatif untuk solusi pengemasan yang berkelanjutan.
-              </p>
-            </div>
-
-            {/* 6th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <div className="rounded-full bg-teal-500 p-4 p-4 mb-2">
-                <FontAwesomeIcon
-                  icon={faUsers}
-                  className="w-6 h-6 text-white "
-                />
-              </div>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                Pemberdayaan Petani
-              </h4>
-              <p className="text-gray-600 text-center">
-                Untuk adopsi teknologi pertanian, akses ke pasar, dan inklusi
-                keuangan.
-              </p>
-            </div>
-
-            {/* 7th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <div className="rounded-full bg-teal-500 p-4 p-4 mb-2">
-                <FontAwesomeIcon
-                  icon={faBullseye}
-                  className="w-6 h-6 text-white "
-                />
-              </div>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                Pertanian Presisi
-              </h4>
-              <p className="text-gray-600 text-center">
-                Pertanian presisi dan pertanian cerdas untuk produktivitas
-                optimal.
-              </p>
-            </div>
-
-            {/* 8th item */}
-            <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
-              <div className="rounded-full bg-teal-500 p-4 p-4 mb-2">
-                <FontAwesomeIcon
-                  icon={faTree}
-                  className="w-6 h-6 text-white "
-                />
-              </div>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                Pertanian Restoratif
-              </h4>
-              <p className="text-gray-600 text-center">
-                Pertanian restoratif untuk regenerasi dan pelestarian ekosistem.
-              </p>
-            </div>
+            ))}
           </div>
         </div>
       </div>

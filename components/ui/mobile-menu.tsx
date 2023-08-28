@@ -88,7 +88,7 @@ export default function MobileMenu() {
                 className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center"
                 onClick={() => setMobileNavOpen(false)}
               >
-                Narasumber & Mentor
+                Kontributor Program
               </Link>
             </li>
             {/* <li>

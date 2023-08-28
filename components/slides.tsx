@@ -6,7 +6,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Slides = () => {
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 carousel-container">
+    <div className="max-w-6xl mx-auto px-9 sm:px-6 carousel-container my-20">
       <Carousel
         autoPlay
         infiniteLoop

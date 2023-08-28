@@ -46,12 +46,12 @@ export default function Features() {
               </span>
             </h1>
             {/* <h1 className="h2 mb-4 from-amber-400 to-green-300">Tahapan Program</h1> */}
-            <p className="text-xl text-gray-600">
+            {/* <p className="text-xl text-gray-600">
               Program akselerator akan membekali tim startup dengan pengetahuan,
               keterampilan, dan pola pikir serta pendanaan yang dibutuhkan untuk
               membangun fondasi yang kokoh dan membantu mereka memulai
               pertumbuhan dan perkembangan.
-            </p>
+            </p> */}
           </div>
 
           {/* Section content */}
@@ -61,14 +61,14 @@ export default function Features() {
               className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6"
               data-aos="fade-right"
             >
-              <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
+              {/* <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 <h3 className="h3 mb-3">Food Tech & Agri Tech</h3>
                 <p className="text-xl text-gray-600">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum dolore pariatur. Excepteur sint occaecat cupidatat non
                   proident, sunt in culpa.
                 </p>
-              </div>
+              </div> */}
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
                 <a
@@ -85,11 +85,13 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Pre-Akselerator
+                      Bentuk Tim Startup Anda
                     </div>
                     <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
+                      Bentuk Tim Startup yang Efisien dan Dinamis. Kembangkan
+                      keterampilan lunak inovatif yang penting untuk membangun
+                      startup. Pelajari serta terapkan teknik pengembangan
+                      startup kunci secara interaktif.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -116,11 +118,13 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Akselerator
+                      Temukan Peluang Bisnis yang Terjangkau
                     </div>
                     <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
+                      Berkreasilah dalam mencari peluang bisnis. Teliti dan
+                      buktikan ukuran pasar serta kelayakan. Validasi
+                      permasalahan yang ada. Kembangkan produk minimal yang
+                      layak (MVP) dan validasi solusi bisnis.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -150,11 +154,13 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Pengembangan Bisnis
+                      Bersiaplah untuk Mendapatkan Dana
                     </div>
                     <div className="text-gray-600">
-                      Take collaboration to the next level with security and
-                      administrative features built for teams.
+                      Ciptakan kasus bisnis yang kompetitif, siapkan tayangan
+                      visual yang menarik, dan latih pidato Anda hingga
+                      sempurna. Sajikan startup Anda dengan gemilang kepada para
+                      calon investor.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -211,7 +217,7 @@ export default function Features() {
                         width={500}
                         height="44"
                         alt="Element"
-                        style={{ top: "10%" }}
+                        style={{ top: "21%" }}
                       />
                     </div>
                   </Transition>
@@ -243,7 +249,7 @@ export default function Features() {
                         width={500}
                         height="44"
                         alt="Element"
-                        style={{ top: "10%" }}
+                        style={{ top: "21%" }}
                       />
                     </div>
                   </Transition>
@@ -275,7 +281,7 @@ export default function Features() {
                         width={500}
                         height="44"
                         alt="Element"
-                        style={{ top: "10%" }}
+                        style={{ top: "21%" }}
                       />
                     </div>
                   </Transition>

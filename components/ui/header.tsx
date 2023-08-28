@@ -48,7 +48,7 @@ export default function Header() {
                   href="#narasumber-mentor"
                   className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out"
                 >
-                  Narasumber dan Mentor
+                  Kontributor Program
                 </Link>
               </li>
               <li>

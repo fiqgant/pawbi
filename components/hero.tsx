@@ -68,11 +68,16 @@ export default function Hero() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                Program kami mengajak Anda untuk merangkul perubahan dengan
-                penuh semangat. Dibutuhkan komitmen dan usaha nyata untuk
-                mencapai hasil gemilang, namun jangan khawatir, semua ini kami
-                tawarkan{" "}
-                <span className="bg-yellow-400">tanpa dipungut biaya</span>{" "}.
+                Selamat datang di program pelatihan kewirausahaan selama dua
+                bulan, yang kami tawarkan{" "}
+                <span className="bg-yellow-400">secara gratis!</span> Program
+                ini dirancang untuk memberikan pengetahuan, keterampilan, dan
+                pandangan yang dibutuhkan oleh para siswa di seluruh Sumatera
+                Utara agar siap memulai bisnis sendiri. Di sini, Anda akan
+                bertemu dengan rekan-rekan sejiwa, menemukan ide bisnis yang
+                bisa diwujudkan, belajar tentang operasi startup, dan
+                mempersiapkan diri untuk mencari pendanaan pertama bagi usaha
+                Anda.
               </p>
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
@@ -80,12 +85,21 @@ export default function Hero() {
                 data-aos-delay="300"
               >
                 <div>
-                  <a
-                    className="btn text-white bg-amber-600 hover:bg-amber-700 w-full mb-4 sm:w-auto sm:mb-0"
+                  {/* <a
+                    className="btn text-white bg-teal-500 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0"
                     href="#program"
                   >
-                    Tahapan Program
-                  </a>
+                    Tonton Video
+                  </a> */}
+                  <ModalVideo
+                    thumb={Thumb}
+                    thumbWidth={216} // 50% of 432
+                    thumbHeight={384} // 50% of 768
+                    thumbAlt="Modal video thumbnail"
+                    video="/videos/video.mp4"
+                    videoWidth={324} // 50% of 1080
+                    videoHeight={576} // 50% of 1920
+                  />
                 </div>
                 <div>
                   <a
@@ -101,7 +115,7 @@ export default function Hero() {
           </div>
 
           {/* Hero image */}
-          <ModalVideo
+          {/* <ModalVideo
             thumb={Thumb}
             thumbWidth={216} // 50% of 432
             thumbHeight={384} // 50% of 768
@@ -109,7 +123,7 @@ export default function Hero() {
             video="/videos/video.mp4"
             videoWidth={324} // 50% of 1080
             videoHeight={576} // 50% of 1920
-          />
+          /> */}
         </div>
       </div>
     </section>
