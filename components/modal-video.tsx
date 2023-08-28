@@ -47,7 +47,7 @@ export default function ModalVideo({
             />
           </div> */}
           <button
-            className="btn text-white bg-teal-500 hover:bg-green-700 w-full mb-4 sm:w-auto sm:mb-0"
+            className="btn text-white bg-green-700 hover:bg-teal-500 w-full mb-4 sm:w-auto sm:mb-0"
             onClick={() => {
               setModalOpen(true);
             }}
