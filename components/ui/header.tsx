@@ -53,7 +53,7 @@ export default function Header() {
               </li>
               <li>
                 <Link
-                  href="https://bit.ly/PreAkseleratorWBI"
+                  href="https://www.trackyourform.com/viewform/lY3P6k1C4b"
                   className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3"
                 >
                   <span>Daftar Sekarang</span>
