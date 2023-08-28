@@ -139,7 +139,7 @@ export default function Testimonials() {
                   />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ Ini adalah peluang unik bagi para siswa Sumatera Utara yang
+                  “ Ini adalah peluang unik bagi para mahasiswa Sumatera Utara yang
                   bercita-cita menjadi pengusaha. Program kami akan membantu
                   Anda memperoleh keterampilan bisnis praktis yang diperlukan,
                   membentuk tim dengan orang sejiwa, menemukan dan memvalidasi
