@@ -139,12 +139,13 @@ export default function Testimonials() {
                   />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  “ Ini adalah peluang unik bagi para mahasiswa Sumatera Utara yang
-                  bercita-cita menjadi pengusaha. Program kami akan membantu
-                  Anda memperoleh keterampilan bisnis praktis yang diperlukan,
-                  membentuk tim dengan orang sejiwa, menemukan dan memvalidasi
-                  ide bisnis yang menjanjikan, serta mempersiapkan diri untuk
-                  menarik investasi dan mengembangkan bisnis Anda lebih lanjut “
+                  “ Ini adalah peluang unik bagi para mahasiswa Sumatera Utara
+                  yang bercita-cita menjadi pengusaha. Program kami akan
+                  membantu Anda memperoleh keterampilan bisnis praktis yang
+                  diperlukan, membentuk tim dengan orang sejiwa, menemukan dan
+                  memvalidasi ide bisnis yang menjanjikan, serta mempersiapkan
+                  diri untuk menarik investasi dan mengembangkan bisnis Anda
+                  lebih lanjut “
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">
                   Dr. Ir. Jenny Elisabeth, MS
