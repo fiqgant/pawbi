@@ -103,7 +103,7 @@ export default function Hero() {
                   <a
                     className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
                     target="_blank"
-                    href="https://www.trackyourform.com/viewform/lY3P6k1C4b"
+                    href="https://bit.ly/PreAkseleratorWBI"
                   >
                     Daftar Sekarang
                   </a>

@@ -104,7 +104,7 @@ export default function Newsletter() {
                 {/* CTA form */}
                 <a
                   className="btn text-black bg-teal-400 hover:text-white hover:bg-teal-800 shadow"
-                  href="https://www.trackyourform.com/viewform/lY3P6k1C4b"
+                  href="https://bit.ly/PreAkseleratorWBI"
                 >
                   Daftar Sekarang
                 </a>
