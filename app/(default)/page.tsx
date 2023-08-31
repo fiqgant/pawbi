@@ -3,7 +3,7 @@ import Script from "next/script";
 
 export const metadata = {
   title: "WBI Pre-Akselerator FoodTech & AgriTech",
-  description: "Program pelatihan kewirausahaan selama dua bulan gratis",
+  description: "Wujudkan gagasan anda menjadi ide wirausaha mandiri",
   icons: {
     icon: "/favicon.png",
   },
