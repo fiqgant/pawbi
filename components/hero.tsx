@@ -68,16 +68,14 @@ export default function Hero() {
                 data-aos="zoom-y-out"
                 data-aos-delay="150"
               >
-                Selamat datang di program pelatihan kewirausahaan selama dua
-                bulan, yang kami tawarkan{" "}
+                Selamat datang di program kewirausahaan, yang
+                kami tawarkan{" "}
                 <span className="bg-yellow-400">secara gratis!</span> Program
-                ini dirancang untuk memberikan pengetahuan, keterampilan, dan
-                pandangan yang dibutuhkan oleh para siswa di seluruh Sumatera
-                Utara agar siap memulai bisnis sendiri. Di sini, Anda akan
-                bertemu dengan rekan-rekan sejiwa, menemukan ide bisnis yang
-                bisa diwujudkan, belajar tentang operasi startup, dan
-                mempersiapkan diri untuk mencari pendanaan pertama bagi usaha
-                Anda.
+                ini dirancang untuk membantu anda mewujudkan gagasan anda
+                menjadi ide wirausaha mandiri. Di sini, Anda akan bertemu dengan
+                rekan-rekan sejiwa, menemukan ide bisnis yang bisa diwujudkan,
+                belajar tentang operasi startup, dan mempersiapkan diri untuk
+                mencari pendanaan pertama bagi usaha Anda.
               </p>
               <div
                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
